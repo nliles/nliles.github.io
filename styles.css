@@ -1,0 +1,63 @@
+* {
+	font-family: "Franklin Gothic";
+	background-color: #f6f6f6;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	margin: 2px;
+	padding: 1px;
+	letter-spacing: 1.2px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #71637D;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.topnav li {
+	float: left;
+	display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.space {
+	margin: 7px;
+}
+
+table {
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+}
+
