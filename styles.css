@@ -6,9 +6,22 @@
 h1 {
 	text-align: center;
 	font-size: 35px;
-	margin: 2px;
+	margin: 25px 2px 2px 2px;
 	padding: 1px;
-	letter-spacing: 1.2px;
+	border: 1px;
+    letter-spacing: 1.2px;
+}
+
+#header {
+ text-decoration: underline;
+}
+
+p {
+	margin: 25px 100px 25px 100px;
+}
+
+.travel_res {
+	margin: 25px 75px 25px 75px;
 }
 
 a {
@@ -49,10 +62,11 @@ a:visited {
 }
 
 .space {
-	margin: 7px;
+	margin: 10px;
 }
 
 table {
+	border: 1px 1px 1px 1px;
     display: inline-block;
     position: absolute;
     top: 25%;
@@ -60,4 +74,56 @@ table {
     transform: translate(-50%, 0%);
   }
 }
+
+table tr td {
+	width: 150px;
+	height: 100px;
+}
+
+.resize {
+	width: 150px;
+	height: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+ table tr td {
+	width: 75px;
+	height: 50px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.resize {
+	width: 75px;
+	height: 50px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav {
+	padding: 15px 10px;
+	font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  * {
+	font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+	font-size: 12px;
+  }
+}
+
+
+
 
