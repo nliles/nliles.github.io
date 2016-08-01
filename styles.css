@@ -66,14 +66,14 @@ a:visited {
 }
 
 table {
-	border: 1px 1px 1px 1px;
+	border: 1px;
     display: inline-block;
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, 0%);
   }
-}
+
 
 table tr td {
 	width: 150px;
